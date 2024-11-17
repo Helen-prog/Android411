@@ -4,7 +4,6 @@ out/
 !**/src/test/**/out/
 .idea/
 test.txt
-Android411.txt
 
 
 ### Eclipse ###
