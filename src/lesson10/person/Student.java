@@ -6,6 +6,10 @@ public class Student extends Human{
     private double rating;
     private double attendance;
 
+//    public Student() {
+//
+//    }
+
     public Student(String lastName, String firstName, int age, String speciality, String group, double rating, double attendance) {
         super(lastName, firstName, age);
 //        this.speciality = speciality;
@@ -17,6 +21,24 @@ public class Student extends Human{
         setRating(rating);
         setAttendance(attendance);
         System.out.println("StudentConstructor:\t" + Integer.toHexString(hashCode()));
+    }
+
+    public Student(Human human, String speciality, String group, double rating, double attendance){
+        super(human);
+        setSpeciality(speciality);
+        setGroup(group);
+        setRating(rating);
+        setAttendance(attendance);
+        System.out.println("StudentConstructor:\t" + Integer.toHexString(hashCode()));
+    }
+
+    public Student(Student other) {
+        super(other);
+        this.speciality = other.speciality;
+        this.group = other.group;
+        this.rating = other.rating;
+        this.attendance = other.attendance;
+        System.out.println("StudentCopyConstructor:\t" + Integer.toHexString(hashCode()));
     }
 
     public String getSpeciality() {
@@ -48,7 +70,8 @@ public class Student extends Human{
     }
 
     public void setAttendance(double attendance) {
-        this.attendance = attendance;
+        if (attendance > 0)
+            this.attendance = attendance;
     }
 
     @Override

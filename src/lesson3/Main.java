@@ -545,22 +545,22 @@ public class Main {
 //            System.out.println();
 //        }
 
-//        int[][] mas = new int[5][];
-//        for (int i = 0; i < mas.length; i++) {
-//            mas[i] = new int[mas.length - i];
-//        }
-//        int count = 10;
-//        for (int i = 0; i < mas.length; i++) {
-//            for (int j = 0; j < mas[i].length; j++) {
-//                mas[i][j] = count++;
-//            }
-//        }
-//        for (int i = 0; i < mas.length; i++) {
-//            for (int j = 0; j < mas[i].length; j++) {
-//                System.out.print(mas[i][j] + "\t");
-//            }
-//            System.out.println();
-//        }
+        int[][] mas = new int[5][];
+        for (int i = 0; i < mas.length; i++) {
+            mas[i] = new int[mas.length - i];
+        }
+        int count = 10;
+        for (int i = 0; i < mas.length; i++) {
+            for (int j = 0; j < mas[i].length; j++) {
+                mas[i][j] = count++;
+            }
+        }
+        for (int i = 0; i < mas.length; i++) {
+            for (int j = 0; j < mas[i].length; j++) {
+                System.out.print(mas[i][j] + "\t");
+            }
+            System.out.println();
+        }
 
 //        int n = 16;
 //        int[][] tp = new int[n][];

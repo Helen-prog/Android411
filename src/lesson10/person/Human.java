@@ -15,6 +15,13 @@ public class Human {
         System.out.println("HumanConstructor:\t" + Integer.toHexString(hashCode()));  // шестнадцатеричное представление хэш-кода объекта
     }
 
+    public Human(Human other){
+        this.lastName = other.lastName;
+        this.firstName = other.firstName;
+        this.age = other.age;
+        System.out.println("HumanCopyConstructor:\t" + Integer.toHexString(hashCode()));
+    }
+
     public String getLastName() {
         return lastName;
     }
