@@ -200,5 +200,13 @@ StringBuffer
 personal_data
 	Main.java
 	Human.java
+	
+	Specialist.java  наследуется от Graduate (по диплому получил 5);
+	
+final
+
+Абстарактные классы
+
+Абстрактный метод 
 
 
