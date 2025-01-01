@@ -22,12 +22,13 @@ public class Base {
 //        g1.getSquare();
 //        System.out.println(geom[2] instanceof MathShape);
 
-       Line l = new Line(5, "red", 1,2,3,4);
-        System.out.println(l);
-        l.setCoord(150, 160, 170, 180);
-        System.out.println(l);
-        System.out.println(GeomInterface.MIN_COORD);
-        GeomInterface.showInterval();
+//       Line l = new Line(5, "red", 1,2,3,4);
+//        System.out.println(l);
+//        l.setCoord(150, 160, 170, 180);
+//        System.out.println(l);
+//        System.out.println(GeomInterface.MIN_COORD);
+//        GeomInterface.showInterval();
+        System.out.println("Hello");
 
     }
 }
