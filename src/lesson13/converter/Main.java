@@ -39,3 +39,4 @@ class FahrenheitConverter implements Converter{
         return 1.8 * baseValue + 32;
     }
 }
+

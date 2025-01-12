@@ -209,4 +209,28 @@ final
 
 Абстрактный метод 
 
+extends
+implements
+
+
+enum
+
+public static final
+
+Generics (обобщения)
+
+
+PointProp
+ - id
+ 
+Point2D
+ - x
+ - y
+
+Point3D
+ - x
+ - y
+ - z
+
+
 
