@@ -232,5 +232,8 @@ Point3D
  - y
  - z
 
+DogIsNotReadyException
+
+Анонимные классы
 
 
