@@ -236,4 +236,35 @@ DogIsNotReadyException
 
 Анонимные классы
 
+имя_класса::имя_статического_метода а (если метод статический)
+объект_класса::имя_метода (если метод нестатический)
 
+название_класса::new
+
+Predicate<T>
+Consumer<T>
+Function<T,R>
+Supplier<T>
+UnaryOperator<T>
+BinaryOperator<T>
+
+
+
+Comparable - можно сортировать только по одному атрибуту
+Comparator - может сделать сортировку по разным свойствам
+
+LIFO - last in - first out
+
+7
+9
+8
+5
+2
+
+FIFO - first In First Out
+
+arr[5, 6]
+arr[0]
+
+map{'one': 5, 'two': 6}
+map['one']
